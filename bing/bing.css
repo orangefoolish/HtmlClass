@@ -1,0 +1,103 @@
+.selection{
+    font-size: 1vw;
+    padding-left: 1vw;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 1vh;
+    padding-right: 1vw;
+    padding-bottom: 1vh;
+}
+.block{
+    width: 0.8vw;
+    height: 0.8vw;
+    margin-left: -0.4vw;
+    display: inline-block;
+}
+.company{
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-left: 10vw;
+    margin-top: 1.5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-right: 3vw;
+    font-weight: 1000;
+    height: 5vh;
+
+}  
+.icon_main{
+    position: relative;
+    top: 0.5vh;
+    display: inline-block;
+}
+.icon{
+    width: 2vw;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: -3vw;
+    margin-right: -2vw;
+} 
+.bg{
+    background: url(bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.input{
+    width: 38%;
+    padding-left: 1%;
+    font-size: 1.1vw;;
+    padding-right: 1%;
+    height: 7vh;
+    border-radius:50px;
+    border: 0px;
+    margin-left: 30%;
+    margin-top:10vh;
+    outline: none;
+    transition: all 0.15s linear;
+}
+.input:focus{
+    width: 54%;
+    margin-left: 23%;
+    transition: all 0.15s linear;
+}
+.input_main{
+    width: 100%;
+    height: 100vh;
+    margin-top: 15vh;
+}
+.menu{
+    width: 8vw;
+    height:20vh;
+    background-color:white;
+    position:absolute;
+    margin-left:-2.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#more:hover .menu{
+    visibility: visible;
+}
+.selects{
+    flex: 1;
+    line-height: 5vh;
+    display: inline-block;
+    
+}
+.selects:hover{
+    background-color: rgb(221, 221, 221);
+}
+#btn{
+    display: block;
+    width: 8vw;
+    height: 6vh;
+    margin-left: 46vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;cursor: pointer;
+    place-content: adw;
+
+}
